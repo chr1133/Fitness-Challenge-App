@@ -1,17 +1,40 @@
-# fitness_challenge_app
+ Fitness Challenge App
 
-A new Flutter project.
+A Flutter application that performs CRUD operations using
+**Dio** package and **Bloc** state management.
 
-## Getting Started
+## Description
+This app allows users to create and track fitness challenges.
+Users can add workout challenges, monitor progress,
+update challenge status, and delete completed or unwanted challenges.
 
-This project is a starting point for a Flutter application.
+## Features
+-  Create new fitness challenges
+-  Read and display all challenges
+-  Update challenge details and completion status
+-  Delete challenges
+-  Loading states with spinner
+-  Error handling with SnackBar
+-  Difficulty color indicators
+-  Clean architecture with Repository pattern
 
-A few resources to get you started if this is your first Flutter project:
+## API
+Built with [MockAPI](https://mockapi.io)
+**Base URL:** `https://6a09e92be7e3f433d48392be.mockapi.io/api/challenges`
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Home Screen
+![Home Screen](screenshots/Home_screen%20(2).png)
+
+### Add Challenge
+![Add Challenge](screenshots/Add_challenge.png)
+
+### Edit Challenge
+![Edit Challenge](screenshots/Edit%20challenge.png)
+
+### Delete Challenge
+![Delete Challenge](screenshots/Delete_challenge.png)
+
+### Updated Challenge
+![Updated Challenge](screenshots/Updated_challenge.png)
